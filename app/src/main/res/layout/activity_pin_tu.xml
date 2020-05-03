@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pintu.PinTuActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textpin"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        tools:text="时间"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+>
+
+
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_0"
+            android:onClick="onClick" />
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:onClick="onClick"
+            android:src="@mipmap/link_1" />
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_2"
+            android:onClick="onClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_3"
+            android:onClick="onClick" />
+
+        <ImageButton
+            android:id="@+id/img4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_4"
+            android:onClick="onClick" />
+
+        <ImageButton
+            android:id="@+id/img5"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_5"
+            android:onClick="onClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/img6"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_6"
+            android:onClick="onClick" />
+
+        <ImageButton
+            android:id="@+id/img7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_7"
+            android:onClick="onClick" />
+
+        <ImageButton
+            android:id="@+id/img8"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/link_8"
+            android:onClick="onClick"
+            android:visibility="invisible" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:onClick="onRestart"
+        android:text="重新开始">
+    </Button>
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/link" />
+
+
+
+
+
+
+</LinearLayout>
